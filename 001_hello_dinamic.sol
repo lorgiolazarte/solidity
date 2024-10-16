@@ -10,6 +10,6 @@ contract hello_dinamic {
     }
 
     function guardarSaludo(string memory _nuevoSaludo) public  {
-        saludo_d = _nuevoSaludo;
+        saludo_d = _nuevoSaludo; 
     }
 }
